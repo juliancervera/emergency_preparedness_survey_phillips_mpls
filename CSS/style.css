@@ -1,0 +1,108 @@
+body {
+	background-color: #ececec;
+	color: darkcyan;
+	font-family: Geneva, sans-serif, Helvetica;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+}
+
+h1{
+	line-height: 0.8em;
+	text-align: center;
+	color:  antiquewhite;
+}
+
+h2{
+	line-height: 0.8em;
+	text-align: center;
+	color:  antiquewhite;
+}
+
+h3{
+	margin-bottom: 5px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.abstract{
+	background-color: #385170;
+	color: #9fd3c7;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+}
+
+.explanation{
+	color: #385170;
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.4em;
+    text-indent: 35px;
+}
+
+
+.intro{
+	color: #385170;
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.4em;
+}
+
+.name{
+	text-align: right;
+	font-size: 14;
+	color:  antiquewhite;
+}
+
+.first{
+	text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.2em;	
+}
+
+.graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 530px;
+}
+
+figcaption {
+	color: #385170;
+    text-align: center;
+    line-height: o.8em;
+    font-size: 40;
+    font: Geneva;
+}
+
+
+.imgContainer {
+	float: left;
+}
+
+.contContainer {
+	position:  relative;
+	width: 100%;
+}
+
+.column {
+	box-sizing: border-box;
+	float: left;
+	width:  33.33%;
+}
+
+.row: :after {
+	box-sizing: border-box;
+	content: "";
+	display: table;
+	clear: both;
+}
