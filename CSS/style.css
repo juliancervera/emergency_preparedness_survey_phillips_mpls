@@ -14,6 +14,13 @@ ul{
   	text-justify: inter-word;
 }
 
+li{
+	color: #385170;
+	margin: 0;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
 h1{
 	line-height: 0.8em;
 	text-align: center;
