@@ -3,8 +3,15 @@ body {
 	color: darkcyan;
 	font-family: Geneva, sans-serif, Helvetica;
 	font-weight: normal;
-	line-height: 1em;
+	line-height: 1.2em;
 	margin: 0;
+}
+
+ul{
+	color: #385170;
+	margin: 0;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 h1{
@@ -84,10 +91,24 @@ figcaption {
     font: Geneva;
 }
 
-
-.imgContainer {
-	float: left;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.image-container {
+    display: block; /* Display the container as an inline block */
+    text-align: center; /* Center align the content inside the container */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 .contContainer {
 	position:  relative;
